@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Management System - Simplify your work, stay organized, and achieve more with our easy-to-use platform.">
+  <title>Management System - Home</title>
+  
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- GLOBAL NAVIGATION BAR -->
+  <header class="navbar-custom">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="index.html" class="navbar-brand">Management System</a>
+
+      <div class="nav-dropdown-wrapper">
+        <button type="button" class="nav-dropdown-btn" id="navDropdownBtn" aria-expanded="false" aria-haspopup="true">
+          Home <i class="bi bi-caret-down-fill" style="font-size: 0.72rem;"></i>
+        </button>
+        <div class="nav-dropdown-menu" id="navDropdownMenu">
+          <a class="nav-dropdown-item" href="login.html">Login</a>
+          <a class="nav-dropdown-item" href="#">Sign Up</a>
+          <a class="nav-dropdown-item" href="#">Help</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO CAROUSEL SECTION -->
+  <section class="hero-carousel-section" aria-label="Hero Carousel">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image: url('photo-1454165804606-c3d57bc86b40.avif');">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag">WORK SMARTER</span>
+          <h1 class="hero-title">Achieve Your Goals</h1>
+          <p class="hero-desc">Track progress, manage information, and improve productivity with a clear and organized workflow.</p>
+          <a href="login.html" class="btn-hero">Login Now &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide" style="background-image: url('photo-1521737711867-e3b97375f902.avif');">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag">WORK TOGETHER</span>
+          <h2 class="hero-title">Better Team Collaboration</h2>
+          <p class="hero-desc">Keep your team connected, organize responsibilities, and manage tasks in one convenient place.</p>
+          <a href="#" class="btn-hero">Join Us &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide" style="background-image: url('photo-1497366754035-f200968a6e72.avif');">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag">WELCOME TO OUR PLATFORM</span>
+          <h2 class="hero-title">Management Made Simple</h2>
+          <p class="hero-desc">Simplify your work, stay organized, and achieve more with our easy-to-use management system.</p>
+          <a href="#" class="btn-hero">Get Started &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-nav-btn carousel-prev" aria-label="Previous Slide">&lsaquo;</button>
+    <button class="carousel-nav-btn carousel-next" aria-label="Next Slide">&rsaquo;</button>
+
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators-bar">
+      <span class="indicator-dot active" data-slide-to="0"></span>
+      <span class="indicator-dot" data-slide-to="1"></span>
+      <span class="indicator-dot" data-slide-to="2"></span>
+    </div>
+  </section>
+
+  <!-- OUR GOAL SECTION -->
+  <section class="our-goal-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">OUR GOAL</div>
+        <h2 class="section-title">Goal of This Website</h2>
+        <p class="section-desc">
+          Our goal is to provide a simple, secure, and efficient management system that helps users organize their work, manage information, track progress, and improve productivity &mdash; all in one place.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <!-- Left Column: Image -->
+        <div class="col-lg-6">
+          <div class="goal-image-card">
+            <img src="photo-1497366811353-6870744d04b2.avif" alt="Modern meeting room" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Right Column: 2x2 Feature Cards -->
+        <div class="col-lg-6">
+          <div class="row g-3 h-100">
+            <!-- Feature 1 -->
+            <div class="col-sm-6">
+              <div class="feature-card">
+                <div class="feature-icon-box feature-icon-purple">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <h3 class="feature-title">Easy to Use</h3>
+                <p class="feature-desc">A simple and clear interface for every user.</p>
+              </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-sm-6">
+              <div class="feature-card">
+                <div class="feature-icon-box feature-icon-amber">
+                  <i class="bi bi-lock-fill"></i>
+                </div>
+                <h3 class="feature-title">Secure</h3>
+                <p class="feature-desc">Keep information protected with appropriate security.</p>
+              </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-sm-6">
+              <div class="feature-card">
+                <div class="feature-icon-box feature-icon-orange">
+                  <i class="bi bi-lightning-charge-fill"></i>
+                </div>
+                <h3 class="feature-title">Efficient</h3>
+                <p class="feature-desc">Save time by keeping tasks and information organized.</p>
+              </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="col-sm-6">
+              <div class="feature-card">
+                <div class="feature-icon-box feature-icon-blue">
+                  <i class="bi bi-graph-up-arrow"></i>
+                </div>
+                <h3 class="feature-title">Better Productivity</h3>
+                <p class="feature-desc">Track progress and work toward your goals.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="cta-title">Ready to Get Started?</h2>
+      <p class="cta-desc">Create your account and start organizing your work today.</p>
+      <a href="login.html" class="btn-cta">Create an Account</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="footer-brand">Management System</div>
+      <p class="footer-copy">&copy; 2026 Management System. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Logic Script -->
+  <script src="script.js"></script>
+</body>
+</html>
